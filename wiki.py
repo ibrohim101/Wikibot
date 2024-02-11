@@ -30,5 +30,5 @@ async def send_wiki(message: types.Message):
         await message.answer('Bu mavzuga oid maqola topilmadi!')
 
 
-if name == '__main__':
+if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
